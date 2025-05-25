@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "required": [
+    "status",
+    "response"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "response": {
+      "type": "object",
+      "required": [
+        "keywordOverTime",
+        "overTime",
+        "total"
+      ],
+      "properties": {
+        "keywordOverTime": {
+          "type": "array",
+          "required": [
+            "month",
+            "total",
+            "top1",
+            "top3",
+            "top10"
+          ],
+          "properties": {
+            "month": {
+              "type": "string"
+            },
+            "total": {
+              "type": "number"
+            },
+            "top1": {
+              "required": [
+                "count",
+                "searchTerms"
+              ],
+              "properties": {
+                "count": {
+                  "type": "number"
+                },
+                "searchTerms": {
+                  "type": "array"
+                }
+              }
+            },
+            "top3": {
+              "required": [
+                "count",
+                "searchTerms"
+              ],
+              "properties": {
+                "count": {
+                  "type": "number"
+                },
+                "searchTerms": {
+                  "type": "array"
+                }
+              }
+            },
+            "top10": {
+              "required": [
+                "count",
+                "searchTerms"
+              ],
+              "properties": {
+                "count": {
+                  "type": "number"
+                },
+                "searchTerms": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        },
+        "overTime": {
+          "type": "array",
+          "required": [
+            "month",
+            "top1",
+            "top3",
+            "top10",
+            "total",
+            "avgRank"
+          ],
+          "properties": {
+            "month": {
+              "type": "string"
+            },
+            "top1": {
+              "type": "number"
+            },
+            "top3": {
+              "type": "number"
+            },
+            "top10": {
+              "type": "number"
+            },
+            "total": {
+              "type": "number"
+            },
+            "avgRank": {
+              "type": "number"
+            }
+          }
+        },
+        "total": {
+          "type": "object",
+          "properties": {
+            "top1": {
+              "type": "number"
+            },
+            "top3": {
+              "type": "number"
+            },
+            "top10": {
+              "type": "number"
+            },
+            "total": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

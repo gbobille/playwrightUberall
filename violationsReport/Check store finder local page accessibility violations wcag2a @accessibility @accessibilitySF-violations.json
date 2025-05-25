@@ -1,0 +1,34 @@
+{
+  "currentTime": "12/20/2024, 7:36:33 PM",
+  "numViolations": 2,
+  "violations": [
+    {
+      "description": "Ensures links have discernible text",
+      "nodes": [
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!\" class=\"ubsf_brand\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/berlin/kopenhagener-strasse-37/3749439\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        }
+      ]
+    },
+    {
+      "description": "Ensures that lists are structured correctly",
+      "nodes": [
+        {
+          "html": "<ul class=\"ubsf_similar-locations-list\">",
+          "impact": "serious",
+          "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/list?application=playwright"
+        }
+      ]
+    }
+  ]
+}

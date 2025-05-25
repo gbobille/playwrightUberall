@@ -1,0 +1,77 @@
+{
+  "currentTime": "9/25/2023, 10:49:02 AM",
+  "numViolations": 1,
+  "violations": [
+    {
+      "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+      "nodes": [
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/amex.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/amex.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/visa.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/visa.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/mastercard.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/mastercard.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/apple_pay.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/apple_pay.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/google_pay.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/google_pay.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/diners.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/diners.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/discover.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/discover.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/alipay.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/alipay.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/jcb.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/jcb.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/union_pay.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/union_pay.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        },
+        {
+          "html": "<img ng-src=\"../../../../store-locator/assets/images/clients/burberry/we_chat_pay.svg\" src=\"../../../../store-locator/assets/images/clients/burberry/we_chat_pay.svg\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/image-alt?application=playwright"
+        }
+      ]
+    }
+  ]
+}

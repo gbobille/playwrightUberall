@@ -1,0 +1,128 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "required": [
+        "data",
+        "totalResults"
+    ],
+    "properties": {
+        "data": {
+            "type": "array",
+            "additionalItems": false,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "object",
+                        "required": [
+                            "location",
+                            "metrics",
+                            "themes"
+                        ],
+                        "properties": {
+                            "location": {
+                                "type": "object",
+                                "required": [
+                                    "id",
+                                    "name",
+                                    "address",
+                                    "locality",
+                                    "region",
+                                    "corporateId"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    },
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "address": {
+                                        "type": "string"
+                                    },
+                                    "locality": {
+                                        "type": "string"
+                                    },
+                                    "region": {
+                                        "type": "string"
+                                    },
+                                    "corporateId": {
+                                        "type": "string"
+                                    }
+                                },
+                                "additionalProperties": false
+                            },
+                            "metrics": {
+                                "type": "object",
+                                "required": [
+                                    "mentions",
+                                    "grade",
+                                    "value",
+                                    "avgRating",
+                                    "rank"
+                                ],
+                                "properties": {
+                                    "mentions": {
+                                        "type": "integer"
+                                    },
+                                    "grade": {
+                                        "type": "string"
+                                    },
+                                    "value": {
+                                        "type": "number"
+                                    },
+                                    "change": {
+                                        "type": "number"
+                                    },
+                                    "avgRating": {
+                                        "type": "number"
+                                    },
+                                    "rank": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "additionalProperties": false
+                            },
+                            "themes": {
+                                "type": "array",
+                                "additionalItems": false,
+                                "items": {
+                                    "anyOf": [
+                                        {
+                                            "type": "object",
+                                            "required": [
+                                                "name",
+                                                "label",
+                                                "value",
+                                                "grade"
+                                            ],
+                                            "properties": {
+                                                "name": {
+                                                    "type": "string"
+                                                },
+                                                "label": {
+                                                    "type": "string"
+                                                },
+                                                "value": {
+                                                    "type": "number"
+                                                },
+                                                "grade": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "additionalProperties": false
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            }
+        },
+        "totalResults": {
+            "type": "integer"
+        }
+    },
+    "additionalProperties": false
+}

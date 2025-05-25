@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "response": {
+        "type": "object",
+        "properties": {
+          "results": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "month": {
+                  "type": "string"
+                },
+                "locationId": {
+                  "type": "number"
+                },
+                "searchTerm": {
+                  "type": "string"
+                },
+                "rank": {
+                  "type": "number"
+                },
+                "address": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "month",
+                "locationId",
+                "searchTerm",
+                "rank",
+                "address"
+              ]
+            }
+          },
+          "offset": {
+            "type": "number"
+          },
+          "max": {
+            "type": "number"
+          },
+          "count": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "results",
+          "offset",
+          "max",
+          "count"
+        ]
+      }
+    },
+    "required": [
+      "status",
+      "response"
+    ]
+  }

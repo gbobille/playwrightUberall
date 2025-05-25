@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "required": [
+      "status",
+      "response"
+    ],
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "response": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "properties": {
+              "keyword": {
+                "type": "string",
+                "additionalProperties": false
+              },
+              "value": {
+                "type": "integer",
+                "additionalProperties": false
+              },
+              "prior": {
+                "type": "integer",
+                "additionalItems": false
+              },
+              "diff": {
+                "type": "integer",
+                "additionalItems": false
+              }
+            }
+          },
+          "offset": {
+            "type": "integer"
+          },
+          "max": {
+            "type": "integer"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "totalResults":{
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }

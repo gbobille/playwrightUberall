@@ -1,0 +1,22 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="67.769652999999">
+<testsuite name="innovation/revenueWidget/validateEditCalculationCustomConfig.spec.ts" timestamp="2025-05-06T03:51:08.823Z" hostname="chromium" tests="2" failures="0" skipped="0" time="63.287" errors="0">
+<testcase name="Revenue Widget › Verify that as a admin user I can edit currency of Revenue Estimator." classname="innovation/revenueWidget/validateEditCalculationCustomConfig.spec.ts" time="36.519">
+<system-out>
+<![CDATA[>> Browser landed on Home Page after login
+
+[[ATTACHMENT|../test-results/innovation-revenueWidget-v-12ef1-rency-of-Revenue-Estimator--chromium/test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Revenue Widget › Verify that as a admin user I can edit Average Purchase and Time Period of Revenue Estimator." classname="innovation/revenueWidget/validateEditCalculationCustomConfig.spec.ts" time="26.768">
+<system-out>
+<![CDATA[>> Browser landed on Home Page after login
+
+[[ATTACHMENT|../test-results/innovation-revenueWidget-v-a901c-eriod-of-Revenue-Estimator--chromium/test-finished-1.png]]
+
+[[ATTACHMENT|../test-results/innovation-revenueWidget-v-a901c-eriod-of-Revenue-Estimator--chromium/test-finished-2.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

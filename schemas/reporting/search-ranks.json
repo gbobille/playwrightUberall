@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "required": [
+    "status",
+    "response"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "response": {
+      "type": "object",
+      "required": [
+        "rankChart",
+        "topMoversChart",
+        "bottomMoversChart"
+      ],
+      "properties": {
+        "rankChart": {
+          "type": "object",
+          "required":[
+            "value",
+            "prior",
+            "diff"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "prior": {
+              "type": "number"
+            },
+            "diff": {
+              "type": "number"
+            }
+          }
+        },
+        "topMoversChart": {
+          "type": "array"
+        },
+        "bottomMoversChart": {
+          "type": "array"
+        }
+      }
+    }
+  }
+}

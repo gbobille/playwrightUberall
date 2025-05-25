@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "dashboard": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "filters": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "filterName": {
+                        "type": "string"
+                    },
+                    "mandatory": {
+                        "type": "boolean"
+                    },
+                    "possibleValues": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": ["name", "filterName", "mandatory"]
+            }
+        }
+    },
+    "required": ["dashboard", "title", "filters"]
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "required": [
+    "status",
+    "response"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "response": {
+      "type": "object",
+      "required": [
+        "data",
+        "offset",
+        "max",
+        "count"
+      ],
+      "properties": {
+        "data": {
+          "type": "array",
+          "required":[
+            "location",
+            "metrics"
+          ],
+          "properties": {
+            "location": {
+              "type": "object",
+              "additionalProperties":true,
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "locality": {
+                  "type": "string"
+                },
+                "postalCode": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              }
+            },
+            "metrics": {
+              "type": "object",
+              "additionalProperties":true,
+              "properties": {
+                "rank": {
+                  "type": "integer"
+                },
+                "views": {
+                  "type": "integer"
+                },
+                "clicks": {
+                  "type": "integer"
+                },
+                "ctr": {
+                  "type": "integer"
+                },
+                "directQueries": {
+                  "type": "integer"
+                },
+                "indirectQueries": {
+                  "type": "integer"
+                },
+                "totalPosts": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        },
+        "offset": {
+          "type": "integer"
+        },
+        "max": {
+          "type": "integer"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "totalResults": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

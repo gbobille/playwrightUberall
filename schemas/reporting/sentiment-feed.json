@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "required": ["data", "totalCount"],
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["location", "content", "metrics"],
+        "properties": {
+          "location": {
+            "type": "object",
+            "required": ["id", "name", "address", "locality", "region", "corporateId"],
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "address": {"type": "string"},
+              "locality": {"type": "string"},
+              "region": {"type": "string"},
+              "corporateId": {"type": "string"}
+            }
+          },
+          "content": {
+            "type": "object",
+            "required": ["id", "text", "provider", "contentType", "created", "nativeLink", "nativeId", "author"],
+            "properties": {
+              "id": {"type": "string"},
+              "text": {"type": "string"},
+              "provider": {"type": "string"},
+              "contentType": {"type": "string"},
+              "created": {"type": "string"},
+              "nativeLink": {"type": "string"},
+              "nativeId": {"type": "string"},
+              "author": {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": {"type": "string"}
+                }
+              }
+            }
+          },
+          "metrics": {
+            "type": "object",
+            "required": ["rating", "sentiment", "respondedOn"],
+            "properties": {
+              "rating": {"type": "integer"},
+              "sentiment": {"type": "string"},
+              "respondedOn": {"type": "string"},
+              "themes": {"type": "object"}
+            }
+          }
+        }
+      }
+    },
+    "totalCount": {
+      "type": "integer"
+    }
+  }
+}

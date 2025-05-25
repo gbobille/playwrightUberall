@@ -1,0 +1,7 @@
+export const listingsConfig = {
+    LIS_LOCATION_GOOGLE_PUBLISHING: `3431035`,
+    CHILD_ADMIN_USERNAME: `admin_qa_child_test@uberall.com`,
+    GOOGLE_LISTINGS_GOOGLE_PUBLISHING: `91634399`,
+    MENU_ITEM_ID: `36881625`,
+    LIS_AUTOMATION_MENU: `696563`
+}

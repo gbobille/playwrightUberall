@@ -1,0 +1,64 @@
+{
+  "currentTime": "12/20/2024, 7:36:27 PM",
+  "numViolations": 2,
+  "violations": [
+    {
+      "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+      "nodes": [
+        {
+          "html": "<img src=\"data:image/svg+xml;base64,CiAgICA8c3ZnIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiM0NTQ1NDUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGNpcmNsZSBvcGFjaXR5PSIuMjM5IiBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiLz48Y2lyY2xlIGN4PSIyMCIgY3k9IjIwIiByPSIxMyIvPjwvZz48L3N2Zz4=\" style=\"position: absolute; top: 0px; left: 0px; clip: rect(0px, 40px, 40px, 0px);\">",
+          "impact": "critical",
+          "help": "Images must have alternate text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/image-alt?application=playwright"
+        }
+      ]
+    },
+    {
+      "description": "Ensures links have discernible text",
+      "nodes": [
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!\" class=\"ubsf_brand\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/berlin/hussitenstrasse-33/3749440\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/berlin/hussitenstrasse-32/3749442\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/berlin/kopenhagener-strasse-37/3749439\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/munchen/hohenzollernstrasse-152/3749438\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/den-haag/van-stolkweg-1/3749437\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        },
+        {
+          "html": "<a href=\"https://d3uk4oqgv9ja2a.cloudfront.net/qa-websites/Automation/TestSF2/index.html#!/l/los-angeles/3470-s-sepulveda-blvd/3749441\" id=\"\" class=\"ubsf_locations-list-item-main-content-link\" data-testid=\"location-list-item-link\"></a>",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-name?application=playwright"
+        }
+      ]
+    }
+  ]
+}

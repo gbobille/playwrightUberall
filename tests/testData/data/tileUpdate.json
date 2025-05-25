@@ -1,0 +1,13 @@
+{
+    "widgets": [
+      {
+        "id": "2622",
+        "type": "REVIEW",
+        "config": {
+          "language": "en",
+          "privacyPolicyUrl": "http://www.example.com",
+          "reviewDirectories": ["GOOGLE", "FACEBOOK"]
+        }
+      }
+    ]
+}

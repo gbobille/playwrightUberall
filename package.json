@@ -1,0 +1,36 @@
+{
+  "name": "playwrightts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
+    "@playwright/mcp": "^0.0.25",
+    "@playwright/test": "^1.51.1",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "axe-core": "^4.6.3",
+    "csv-parse": "^5.3.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.20.0",
+    "eslint-plugin-playwright": "^2.2.0",
+    "handlebars": "^4.7.7",
+    "lighthouse": "^9.6.8",
+    "playwright-lighthouse": "^2.2.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.6.0",
+    "playwright": "^1.51.1"
+  }
+}

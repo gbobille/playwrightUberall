@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "required": [
+    "gradeChart",
+    "mentionsChart",
+    "themeTrendsChart"
+  ],
+  "properties": {
+    "gradeChart": {
+      "type": "object",
+      "required": [
+        "grade",
+        "value"
+      ],
+      "properties": {
+        "grade": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number"
+        },
+        "prior": {
+          "type": "number"
+        },
+        "change": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": true
+    },
+    "mentionsChart": {
+      "type": "object",
+      "required": [
+        "total",
+        "prior",
+        "change",
+        "positive",
+        "negative",
+        "neutral"
+      ],
+      "properties": {
+        "total": {
+          "type": "integer"
+        },
+        "prior": {
+          "type": "integer"
+        },
+        "change": {
+          "type": "number"
+        },
+        "positive": {
+          "type": "object",
+          "required": [
+            "total",
+            "prior",
+            "change",
+            "percent"
+          ],
+          "properties": {
+            "total": {
+              "type": "integer"
+            },
+            "prior": {
+              "type": "integer"
+            },
+            "change": {
+              "type": "number"
+            },
+            "percent": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
+        },
+        "negative": {
+          "type": "object",
+          "required": [
+            "total",
+            "prior",
+            "change",
+            "percent"
+          ],
+          "properties": {
+            "total": {
+              "type": "integer"
+            },
+            "prior": {
+              "type": "integer"
+            },
+            "change": {
+              "type": "number"
+            },
+            "percent": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
+        },
+        "neutral": {
+          "type": "object",
+          "required": [
+            "total",
+            "prior",
+            "change",
+            "percent"
+          ],
+          "properties": {
+            "total": {
+              "type": "integer"
+            },
+            "prior": {
+              "type": "integer"
+            },
+            "change": {
+              "type": "number"
+            },
+            "percent": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "themeTrendsChart": {
+      "type": "array",
+      "additionalItems": false,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "required": [
+              "themeName",
+              "themeLabel",
+              "grade",
+              "value"
+            ],
+            "properties": {
+              "themeName": {
+                "type": "string"
+              },
+              "themeLabel": {
+                "type": "string"
+              },
+              "grade": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "prior": {
+                "type": "number"
+              },
+              "change": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "array",
+  "examples": [
+    [
+      {
+        "word": "mall",
+        "count": 548,
+        "value": 0.87,
+        "grade": "80-89"
+      },
+      {
+        "word": "stores",
+        "count": 402,
+        "value": 0.85,
+        "grade": "80-89"
+      }
+    ]
+  ],
+  "additionalItems": false,
+  "items": {
+    "anyOf": [
+      {
+        "type": "object",
+        "required": [
+          "word",
+          "count",
+          "value",
+          "grade"
+        ],
+        "properties": {
+          "word": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "value": {
+            "type": "number"
+          },
+          "grade": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    ]
+  }
+}

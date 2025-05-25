@@ -1,0 +1,17 @@
+{
+  "currentTime": "12/22/2024, 3:42:03 PM",
+  "numViolations": 1,
+  "violations": [
+    {
+      "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+      "nodes": [
+        {
+          "html": "<a data-ui-sref=\"root.siteMapAll\" title=\"Site Map\" aria-label=\"breadcrumbs\" class=\"ng-binding\" href=\"/site-map/all\">Locations</a>",
+          "impact": "serious",
+          "help": "Links must be distinguishable without relying on color",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/link-in-text-block?application=playwright"
+        }
+      ]
+    }
+  ]
+}

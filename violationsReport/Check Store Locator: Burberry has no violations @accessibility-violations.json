@@ -1,0 +1,95 @@
+{
+  "currentTime": "9/25/2023, 10:56:33 AM",
+  "numViolations": 1,
+  "violations": [
+    {
+      "description": "Ensures every id attribute value is unique",
+      "nodes": [
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow0\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn0\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow1\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn1\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow2\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn2\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow3\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn3\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow4\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn4\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow5\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn5\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<div class=\"accordion-content-list-element ng-scope\" data-ng-repeat=\"filter in searchBurberryCtrl.availableFilters | filter: {type: filterType} track by $index\" data-ng-attr-id=\"filterRow{{$index}}\" data-ng-class=\"{active: filter.active}\" id=\"filterRow6\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        },
+        {
+          "html": "<span data-ng-attr-id=\"filterBtn{{$index}}\" data-ng-click=\"searchBurberryCtrl.addPreFilter(filter.label)\" class=\"accordion-content-list-element-span ng-binding\" ng-class=\"{'accordion-content-list-element-underline': searchBurberryCtrl.isItemSelected(filter.label) }\" role=\"none\" tabindex=\"0\" id=\"filterBtn6\">",
+          "impact": "minor",
+          "help": "id attribute value must be unique",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/duplicate-id?application=playwright"
+        }
+      ]
+    }
+  ]
+}

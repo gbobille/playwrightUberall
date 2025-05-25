@@ -1,0 +1,29 @@
+{
+  "currentTime": "9/25/2023, 10:49:18 AM",
+  "numViolations": 1,
+  "violations": [
+    {
+      "description": "Ensures links have discernible text",
+      "nodes": [
+        {
+          "html": "<a ng-if=\"imageCardC.imageLink\" ng-href=\"https://www.facebook.com/BonchonChicken\" rel=\"noopener\" target=\"\" data-analytics-label=\"{&quot;url&quot;: &quot;/ll/US/CA/San-Gabriel/710-W_-Las-Tunas-Dr&quot;, &quot;location_id&quot;: &quot;5f5ea44fe4b0c43112d79f29&quot;}\" data-analytics-category=\"LLP\" data-analytics-event=\"\" data-analytics-value=\"1\" analytics-on=\"click\" class=\"db text-center ng-scope\" href=\"https://www.facebook.com/BonchonChicken\">",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/link-name?application=playwright"
+        },
+        {
+          "html": "<a ng-if=\"imageCardC.imageLink\" ng-href=\"https://bonchon.com/careers\" rel=\"noopener\" target=\"\" data-analytics-label=\"{&quot;url&quot;: &quot;/ll/US/CA/San-Gabriel/710-W_-Las-Tunas-Dr&quot;, &quot;location_id&quot;: &quot;5f5ea44fe4b0c43112d79f29&quot;}\" data-analytics-category=\"LLP\" data-analytics-event=\"\" data-analytics-value=\"1\" analytics-on=\"click\" class=\"db text-center ng-scope\" href=\"https://bonchon.com/careers\">",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/link-name?application=playwright"
+        },
+        {
+          "html": "<a ng-if=\"imageCardC.imageLink\" ng-href=\"https://order.bonchon.com/web/#!/\" rel=\"noopener\" target=\"\" data-analytics-label=\"{&quot;url&quot;: &quot;/ll/US/CA/San-Gabriel/710-W_-Las-Tunas-Dr&quot;, &quot;location_id&quot;: &quot;5f5ea44fe4b0c43112d79f29&quot;}\" data-analytics-category=\"LLP\" data-analytics-event=\"\" data-analytics-value=\"1\" analytics-on=\"click\" class=\"db text-center ng-scope\" href=\"https://order.bonchon.com/web/#!/\">",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/link-name?application=playwright"
+        }
+      ]
+    }
+  ]
+}
